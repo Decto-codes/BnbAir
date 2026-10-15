@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+/* ----Header---- */
+
+header {
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    /* border: 2px solid red; */
+    background-color: #F7F7F7;
+    z-index: 3;
+}
+
+nav {
+    width: 98%;
+    /* border: 2px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cent {
+    display: flex;
+    align-items: center;
+}
+
+
+.center-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    /* border: 2px solid red; */
+}
+
+.cent a li {
+    font-weight: 600;
+    color: #525252;
+    transition: .2s ease;
+}
+
+.cent a li:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.nav-li-img {
+    width: 60px;
+    transition: 0.2s ease;
+}
+
+.nav-li-img:hover {
+    transform: scale(1.2);
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6em;
+}
+
+.nav-right-img {
+    width: 36px;
+    background-color: #EBEBEB;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.nav-right-img:hover {
+    background-color: #d1d0d0;
+}
+
+.nav-right-img2 {
+    width: 35px;
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav-right-img2:hover {
+    background-color: #d1d0d0;
+}
+
+.nav-right a p {
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-right a p:hover {
+    background-color: #F7F7F7;
+    border-radius: 50px;
+}
+
+.nav2 {
+    /* border: 2px solid green; */
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #F7F7F7;
+    top: 95px;
+}
+
+.search-wrapper {
+    width: 70%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.search-bar {
+    height: 66px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #ddd;
+    border-radius: 40px;
+
+    background: #fff;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+
+    padding-left: 8px;
+}
+
+.search-item {
+    position: relative;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 28px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+    flex: 1;
+}
+
+.search-item:hover {
+    background: #f5f5f5;
+}
+
+.search-label {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.search-value {
+    font-size: 12px;
+    color: #717171;
+    white-space: nowrap;
+}
+
+.search-item+.search-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    height: 27px;
+    width: 1px;
+    background: #ddd;
+}
+
+.search-item:hover::before,
+.search-item:hover+.search-item::before {
+    display: none;
+}
+
+.search-button {
+    width: 48px;
+    height: 48px;
+
+    margin-right: 8px;
+
+    border: 0;
+    border-radius: 50%;
+
+    background: #e51d4f;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.dropdown {
+    position: absolute;
+
+    left: 0;
+    top: calc(100% + 15px);
+
+    width: 330px;
+
+    padding: 18px;
+
+    background: white;
+
+    border: 1px solid #eee;
+    border-radius: 18px;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.14);
+
+    z-index: 100;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+.search-item:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+.destination-title {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.destination-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 12px 10px;
+
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.destination-option:hover {
+    background: #f6f6f6;
+}
+
+.destination-icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #f2f2f2;
+    border-radius: 10px;
+
+    font-size: 18px;
+}
+
+.destination-text strong {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.destination-text span {
+    display: block;
+    font-size: 11px;
+    color: #777;
+}
+
+
+.date-dropdown {
+    width: 600px;
+    padding: 24px;
+}
+
+.date-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    margin-bottom: 25px;
+}
+
+.date-tab {
+    padding: 10px 25px;
+
+    border-radius: 25px;
+
+    font-size: 11px;
+    color: #666;
+
+    cursor: pointer;
+}
+
+.date-tab:hover {
+    background: #f3f3f3;
+    color: #222;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+.month h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+
+    text-align: center;
+}
+
+.day-name {
+    font-size: 9px;
+    color: #777;
+    padding-bottom: 8px;
+}
+
+.day {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.day:hover {
+    background: #eee;
+}
+
+.guest-dropdown {
+    width: 300px;
+    right: 0;
+    left: auto;
+    padding: 15px;
+}
+
+.guest-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 5px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.guest-row:last-child {
+    border-bottom: none;
+}
+
+.guest-info strong {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.guest-info span {
+    font-size: 10px;
+    color: #777;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter button {
+    width: 28px;
+    height: 28px;
+
+    border: 1px solid #bbb;
+    border-radius: 50%;
+
+    background: white;
+
+    font-size: 16px;
+    color: #555;
+
+    cursor: pointer;
+}
+
+.counter button:hover {
+    border-color: #222;
+}
+
+.counter span {
+    font-size: 12px;
+    min-width: 12px;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+
+    .category-nav {
+        gap: 15px;
+    }
+
+    .category {
+        font-size: 10px;
+    }
+
+    .search-bar {
+        height: auto;
+        padding: 8px;
+        flex-wrap: wrap;
+        border-radius: 25px;
+    }
+
+    .search-item {
+        min-width: 50%;
+    }
+
+    .search-button {
+        margin: 5px;
+    }
+
+    .date-dropdown {
+        width: 90vw;
+    }
+
+    .calendar {
+        gap: 10px;
+    }
