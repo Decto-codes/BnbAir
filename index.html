@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,13 +20,16 @@
 
     <section>
 
-        <header>
+        <header class="head">
 
-            <nav>
+            <nav class="nav">
 
                 <div class="nav-logo">
                     <a href="./index.html"><img src="./images/airbnb-logo-removebg-preview.png" alt=""
                             width="100px"></a>
+                </div>
+                <div class="nav-logo2">
+                    <img src="./images/airbnb-logo-removebg-preview2.png" alt="" width="35px">
                 </div>
 
                 <div class="center-nav">
@@ -331,7 +337,7 @@
                 </div>
 
                 <button class="search-button">
-                    ⌕
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
 
             </div>
@@ -341,6 +347,31 @@
         </header>
 
     </nav>
+
+    <header class="head2">
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Start your search</p>
+        </div>
+
+        <div class="cont-head2">
+            <div class="head2-btn">
+                <button><img src="./images/globe.png" alt="" class="head2-btn-img"><a href="">All</a></button>
+                <button><img src="./images/house.png" alt="" class="head2-btn-img"><a href="">Homes</a></button>
+                <button><img src="./images/hotairballon.png" alt="" class="head2-btn-img"><a
+                        href="">Experiences</a></button>
+                <button><img src="./images/bell.png" alt="" class="head2-btn-img"><a href="">Services</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="tab-ctrl">
+        <div class="content-ctrl">
+            <div class="contt"><i class="fa-solid fa-magnifying-glass"></i><p>Explore</p></div>
+            <div class="contt"><img src="./images/heaett.png" alt="" width="20px"><p>Wishlist</p></div>
+            <div class="contt"><img src="./images/profile.png" alt="" width="20px"><p>Log in</p></div>
+        </div>
+    </div>
 
 </body>
 
