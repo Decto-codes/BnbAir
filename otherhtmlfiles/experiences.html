@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="shortcut icon" href="../images/airbnbfavi.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="../othercssfiles/experiences.css">
+</head>
+
+<body>
+
+    <section>
+
+        <header class="head">
+
+            <nav class="nav">
+
+                <div class="nav-logo">
+                    <a href="../index.html"><img src="../images/airbnb-logo-removebg-preview.png" alt=""
+                            width="100px"></a>
+                </div>
+                <div class="nav-logo2">
+                    <img src="../images/airbnb-logo-removebg-preview2.png" alt="" width="35px">
+                </div>
+
+                <div class="center-nav">
+
+                    <div class="cent">
+                        <img src="../images/globe.png" alt="" class="nav-li-img"><a href="../index.html">
+                            <li>All</li>
+                        </a>
+                    </div>
+
+
+                    <div class="cent">
+                        <img src="../images/house.png" alt="" class="nav-li-img"><a href="./home.html">
+                            <li>Homes</li>
+                        </a>
+                    </div>
+
+                    <div class="cent">
+                        <img src="../images/hotairballon.png" alt="" class="nav-li-img"> <a href="./experiences.html">
+                            <li>Experiences</li>
+                        </a>
+                    </div>
+
+                    <div class="cent">
+                        <img src="../images/bell.png" alt="" class="nav-li-img"><a href="">
+                            <li>Services</li>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-right">
+
+                    <a href="">
+                        <p>Become a host</p>
+                    </a>
+
+                    <a href=""><img src="../images/profile.png" alt="" class="nav-right-img"></a>
+                    <div data-bs-theme="dark">
+                        <button class="btn-solid" type="button" data-bs-toggle="menu" aria-expanded="false">
+                            <img src="../images/bars.png" alt="" class="nav-right-img2">
+                        </button>
+                        <div class="menu">
+                            <a class="menu-item" href="#"><img src="../images/world.png" alt="" width="18px">Languages &
+                                Currency</a>
+                            <a class="menu-item" href="#"><i class="fa-regular fa-circle-question"></i>Help Center</a>
+                            <hr class="menu-divider">
+                            <a class="menu-item" href="#"><span class="become">
+                                    <h6>Become a host</h6>
+                                    <span class="span">It's easy to start hosting and <br> earn extra income.</span>
+                            </a>
+                            <hr class="menu-divider">
+                            <a class="menu-item" href="#">Refer a host</a>
+                            <a class="menu-item" href="#">Find a co-host</a>
+                            <a class="menu-item" href="#">Gift Cards</a>
+                            <hr class="menu-divider">
+                            <a class="menu-item" href="#">Login or Sign up</a>
+                        </div>
+                    </div>
+                    <!-- <a href=""></a> -->
+
+                </div>
+
+            </nav>
+
+        </header>
+
+    </section>
+
+
+    <nav class="nav2">
+        <div class="search-wrapper">
+
+            <div class="search-bar">
+
+                <div class="search-item">
+
+                    <span class="search-label">Where</span>
+                    <span class="search-value">Search destinations</span>
+
+                    <div class="dropdown" style="color: black;">
+
+                        <div class="destination-title">
+                            Suggested destinations
+                        </div>
+
+                        <div class="destination-option">
+                            <div class="destination-icon">◉</div>
+
+                            <div class="destination-text">
+                                <strong>Nearby</strong>
+                                <span>Find stays close to you</span>
+                            </div>
+                        </div>
+
+                        <div class="destination-option">
+                            <div class="destination-icon">⌂</div>
+
+                            <div class="destination-text">
+                                <strong>Accra, Ghana</strong>
+                                <span>For sights, food and culture</span>
+                            </div>
+                        </div>
+
+                        <div class="destination-option">
+                            <div class="destination-icon">△</div>
+
+                            <div class="destination-text">
+                                <strong>Paris, France</strong>
+                                <span>For its iconic sights</span>
+                            </div>
+                        </div>
+
+                        <div class="destination-option">
+                            <div class="destination-icon">□</div>
+
+                            <div class="destination-text">
+                                <strong>London, United Kingdom</strong>
+                                <span>For a classic city trip</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="search-item">
+
+                    <span class="search-label">When</span>
+                    <span class="search-value">Add dates</span>
+
+                    <div class="dropdown date-dropdown">
+
+                        <div class="date-tabs">
+                            <div class="date-tab">Dates</div>
+                            <div class="date-tab">Flexible</div>
+                        </div>
+
+                        <div class="calendar" style="color: black;">
+
+                            <div class="month">
+
+                                <h4>October 2026</h4>
+
+                                <div class="days">
+                                    <span class="day-name">S</span>
+                                    <span class="day-name">M</span>
+                                    <span class="day-name">T</span>
+                                    <span class="day-name">W</span>
+                                    <span class="day-name">T</span>
+                                    <span class="day-name">F</span>
+                                    <span class="day-name">S</span>
+
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+
+                                    <span class="day">1</span>
+                                    <span class="day">2</span>
+                                    <span class="day">3</span>
+                                    <span class="day">4</span>
+
+                                    <span class="day">5</span>
+                                    <span class="day">6</span>
+                                    <span class="day">7</span>
+                                    <span class="day">8</span>
+                                    <span class="day">9</span>
+                                    <span class="day">10</span>
+                                    <span class="day">11</span>
+
+                                    <span class="day">12</span>
+                                    <span class="day">13</span>
+                                    <span class="day">14</span>
+                                    <span class="day">15</span>
+                                    <span class="day">16</span>
+                                    <span class="day">17</span>
+                                    <span class="day">18</span>
+
+                                    <span class="day">19</span>
+                                    <span class="day">20</span>
+                                    <span class="day">21</span>
+                                    <span class="day">22</span>
+                                    <span class="day">23</span>
+                                    <span class="day">24</span>
+                                    <span class="day">25</span>
+
+                                    <span class="day">26</span>
+                                    <span class="day">27</span>
+                                    <span class="day">28</span>
+                                    <span class="day">29</span>
+                                    <span class="day">30</span>
+                                    <span class="day">31</span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="month">
+
+                                <h4>November 2026</h4>
+
+                                <div class="days">
+                                    <span class="day-name">S</span>
+                                    <span class="day-name">M</span>
+                                    <span class="day-name">T</span>
+                                    <span class="day-name">W</span>
+                                    <span class="day-name">T</span>
+                                    <span class="day-name">F</span>
+                                    <span class="day-name">S</span>
+
+                                    <span class="day">1</span>
+                                    <span class="day">2</span>
+                                    <span class="day">3</span>
+                                    <span class="day">4</span>
+                                    <span class="day">5</span>
+                                    <span class="day">6</span>
+                                    <span class="day">7</span>
+
+                                    <span class="day">8</span>
+                                    <span class="day">9</span>
+                                    <span class="day">10</span>
+                                    <span class="day">11</span>
+                                    <span class="day">12</span>
+                                    <span class="day">13</span>
+                                    <span class="day">14</span>
+
+                                    <span class="day">15</span>
+                                    <span class="day">16</span>
+                                    <span class="day">17</span>
+                                    <span class="day">18</span>
+                                    <span class="day">19</span>
+                                    <span class="day">20</span>
+                                    <span class="day">21</span>
+
+                                    <span class="day">22</span>
+                                    <span class="day">23</span>
+                                    <span class="day">24</span>
+                                    <span class="day">25</span>
+                                    <span class="day">26</span>
+                                    <span class="day">27</span>
+                                    <span class="day">28</span>
+
+                                    <span class="day">29</span>
+                                    <span class="day">30</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="search-item" style="color: black;">
+
+                    <span class="search-label">Who</span>
+                    <span class="search-value">Add guests</span>
+
+                    <div class="dropdown guest-dropdown">
+
+                        <div class="guest-row">
+
+                            <div class="guest-info">
+                                <strong>Adults</strong>
+                                <span>Ages 13 or above</span>
+                            </div>
+
+                            <div class="counter">
+                                <button>−</button>
+                                <span>0</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+
+
+                        <div class="guest-row">
+
+                            <div class="guest-info">
+                                <strong>Children</strong>
+                                <span>Ages 2–12</span>
+                            </div>
+
+                            <div class="counter">
+                                <button>−</button>
+                                <span>0</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+
+
+                        <div class="guest-row">
+
+                            <div class="guest-info">
+                                <strong>Infants</strong>
+                                <span>Under 2</span>
+                            </div>
+
+                            <div class="counter">
+                                <button>−</button>
+                                <span>0</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+
+
+                        <div class="guest-row">
+
+                            <div class="guest-info">
+                                <strong>Pets</strong>
+                                <span>Bringing a service animal?</span>
+                            </div>
+
+                            <div class="counter">
+                                <button>−</button>
+                                <span>0</span>
+                                <button>+</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        </header>
+
+    </nav>
+
+    <header class="head2">
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Start your search</p>
+        </div>
+
+        <div class="cont-head2">
+            <div class="head2-btn">
+                <button><img src="../images/globe.png" alt="" class="head2-btn-img"><a href="../index.html">All</a></button>
+                <button><img src="../images/house.png" alt="" class="head2-btn-img"><a href="./home.html">Homes</a></button>
+                <button><img src="../images/hotairballon.png" alt="" class="head2-btn-img"><a
+                        href="./experiences.html">Experiences</a></button>
+                <button><img src="../images/bell.png" alt="" class="head2-btn-img"><a href="">Services</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="tab-ctrl">
+        <div class="content-ctrl">
+            <div class="contt"><i class="fa-solid fa-magnifying-glass"></i>
+                <p>Explore</p>
+            </div>
+            <div class="contt"><img src="../images/heaett.png" alt="" width="20px">
+                <p>Wishlist</p>
+            </div>
+            <div class="contt"><img src="../images/profile.png" alt="" width="20px">
+                <p>Log in</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------ list 1 ------>
+
+
+    <section class="listing-section">
+
+        <div class="section-header">
+            <div>
+            <h2>Airbnb Originals <i class="fa-solid fa-arrow-right"></i></h2>
+            <p style="color: black;">Hosted by the world’s most interesting people</p>
+            </div>
+
+            <div class="controls">
+                <a href="#" class="arrow" aria-label="Scroll left">
+                    &#10094;
+                </a>
+
+                <a href="#" class="arrow" aria-label="Scroll right">
+                    &#10095;
+                </a>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="start">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (12).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                        <img src="../images/download.png" alt="" class="down">
+
+                </div>
+                <h3>Play in Katie McCabe's five-a-side tournament</h3>
+                <p style="color: #777;">Dartford, United Kingdom</p>
+                <p>From  $47 / guest</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (46).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Carve marble with a third-generation sculptor</h3>
+                <p style="color: #777;">Athens, Greece</p>
+                <p>From $68 / guest <img src="../images/star.png" alt="" width="8px"> 5.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (45).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Paint at Art Basel Paris with a renowned artist</h3>
+                 <p style="color: #777;">Paris, France</p>
+                <p> From $113 / guest</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (23).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Invite-only dinner with Chefs Haziri and Giura</h3>
+                <p style="color: #777;">Rome, Italy</p>
+                <p>From $85 / guest</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (5).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Savor Premium Matcha in a tea ceremony in Shibuya</h3>
+                <p style="color: #777;">Shibuya, Japan</p>
+                <p>From $32 / guest <img src="../images/star.png" alt="" width="8px"> 5.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (6).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Join Sydney Bird Club's co-founder for a birdwatch</h3>
+                <p>Centennial Park, Australia</p>
+                <p>From $63 / guest</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (7).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Original
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Dawn Patrol: Hike Hogback Loop with Local Expert</h3>
+                <p>Boulder, United States</p>
+                <p>From $55 / guest <img src="../images/star.png" alt="" width="8px"> 5.0</p>
+            </div>
+
+            <div class="card1" id="end">
+                <div class="card-image image">
+                    <img src="../images/see-all.png" alt="" width="200px" class="see-all">
+                </div>
+
+    </section>
+
+    <!-- -----list 2---- -->
+
+
+    <section class="listing-section2">
+
+        <h2 style="color: black; margin-bottom: 50px; font-weight: 600;">Popular with travelers from your area</h2>
+
+        <div class="section-header">
+            <div class="list2">
+                <h2>Great hotels for your next trip <i class="fa-solid fa-arrow-right"></i></h2>
+            <p style="color: #777;">Plus, get Airbnb credit when you stay at a featured hotel.</p>
+            </div>
+
+            <div class="controls">
+                <a href="#" class="arrow" aria-label="Scroll left">
+                    &#10094;
+                </a>
+
+                <a href="#" class="arrow" aria-label="Scroll right">
+                    &#10095;
+                </a>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="start">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (38).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Point A Hotel London Paddington</h3>
+                <p>$377 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.73</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (29).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Z Hotel Holborn</h3>
+                <p>$353 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.75</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (13).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Sun Street Hotel Shoreditch</h3>
+                <p>$520 for 2 nights <img src="./images/star.png" alt="" width="8px"> 4.91</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (21).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>The Pilgrm</h3>
+                <p>$415 for 2 nights <img src="./images/star.png" alt="" width="8px"> 4.9</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (2).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Rockwell East</h3>
+                <p>$450 for 2 nights <img src="./images/star.png" alt="" width="8px"> 4.78</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (43).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Wilde London Paddinton</h3>
+                <p>$456 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.2</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (14).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Commodore Hotel</h3>
+                <p>$458 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.79</p>
+            </div>
+
+            <div class="card1" id="end">
+                <div class="card-image image">
+                    <img src="../images/see-all.png" alt="" width="200px" class="see-all">
+                </div>
+
+    </section>
+
+
+
+    <!-- -----list 3---- -->
+
+
+     <section class="listing-section3">
+
+        <div class="section-header">
+            <h2>Available in Lekki this weekend
+                <i class="fa-solid fa-arrow-right"></i>
+            </h2>
+
+            <div class="controls">
+                <a href="#" class="arrow" aria-label="Scroll left">
+                    &#10094;
+                </a>
+
+                <a href="#" class="arrow" aria-label="Scroll right">
+                    &#10095;
+                </a>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="start">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (22).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Lekki</h3>
+                <p>$120for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (23).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lekki</h3>
+                <p>$180 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.2</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (24).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lekki</h3>
+                <p>$89 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.6</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (25).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lekki</h3>
+                <p>$137 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.92</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (26).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Condo in Lekki</h3>
+                <p>$116 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (27).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lekki</h3>
+                <p>$93 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.2</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (28).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Home in Lekki</h3>
+                <p>$20 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.7</p>
+            </div>
+
+            <div class="card1" id="end">
+                <div class="card-image image">
+                    <img src="../images/see-all.png" alt="" width="200px" class="see-all">
+                </div>
+
+    </section>
+
+
+    <!-- -----list 4---- -->
+
+
+    <section class="listing-section4">
+
+        <div class="section-header">
+            <h2>Stay in Lomé<i class="fa-solid fa-arrow-right"></i></h2>
+
+            <div class="controls">
+                <a href="#" class="arrow" aria-label="Scroll left">
+                    &#10094;
+                </a>
+
+                <a href="#" class="arrow" aria-label="Scroll right">
+                    &#10095;
+                </a>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="start">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (55).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lomé</h3>
+                <p>$120for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (6).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lomé</h3>
+                <p>$180 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.2</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (37).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Villa in Lomé</h3>
+                <p>$89 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.6</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (28).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lomé</h3>
+                <p>$137 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.92</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (39).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Townhouse in Lomé</h3>
+                <p>$116 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.0</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (20).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lomé</h3>
+                <p>$93 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.2</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (29).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Apartment in Lomé</h3>
+                <p>$20 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.7</p>
+            </div>
+
+            <div class="card1" id="end">
+                <div class="card-image image">
+                    <img src="../images/see-all.png" alt="" width="200px" class="see-all">
+                </div>
+
+    </section>
+
+
+
+    <!-- -----list 5---- -->
+
+
+
+     <section class="listing-section5">
+
+        <div class="section-header">
+            <h2>Available next month in Paris
+                <i class="fa-solid fa-arrow-right"></i>
+            </h2>
+
+            <div class="controls">
+                <a href="#" class="arrow" aria-label="Scroll left">
+                    &#10094;
+                </a>
+
+                <a href="#" class="arrow" aria-label="Scroll right">
+                    &#10095;
+                </a>
+            </div>
+        </div>
+
+        <div class="card-wrapper" id="start">
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (36).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Paris</h3>
+                <p>$510for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.3</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (37).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Saint-Mandé</h3>
+                <p>$130 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.15</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (38).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Paris</h3>
+                <p>$282 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.3</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="../images/Experiences (4).png (39).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Ivry-sur-seine in Beirut</h3>
+                <p>$170 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.42</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (40).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Appartment in Paris</h3>
+                <p>$136 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.3</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (41).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Paris</h3>
+                <p>$163 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.3</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image image">
+                    <img src="../images/Experiences (4).png (42).png" alt="" width="200px" class="property-image">
+                    <span class="guest-favorite">
+                        Trending
+                    </span>
+
+                    <img src="../images/heart.png" alt="" width="20px" class="heart">
+
+                </div>
+                <h3>Room in Paris</h3>
+                <p>$250 for 2 nights <img src="../images/star.png" alt="" width="8px"> 4.5</p>
+            </div>
+
+            <div class="card1" id="end">
+                <div class="card-image image">
+                    <img src="../images/see-all.png" alt="" width="200px" class="see-all">
+                </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="spann">
+            <span class="footer-header">Inspiration for future getaways</span>
+        </div>
+
+        <div class="footer-top-cont">
+
+            <div class="footer-para">
+                <p class="p-list">Popular</p>
+                <p class="p-list">Arts & culture</p>
+                <p class="p-list">Beach</p>
+                <p class="p-list">Mountains</p>
+                <p class="p-list">Outdoors</p>
+                <p class="p-list">Things to do</p>
+                <p class="p-list">Travel tips & inspiration</p>
+                <p class="p-list">Airbnb-friendly apartments</p>
+            </div>
+
+            <div class="footer-line"></div>
+
+        </div>
+
+        <div class="places">
+
+            <div class="port">
+
+                <li>
+                    <h5>Portland</h5>
+                    <p>House rental</p>
+                </li>
+
+                <li>
+                    <h5>Raleigh</h5>
+                    <p>Apartment rentals</p>
+                </li>
+
+                <li>
+                    <h5>Dubai</h5>
+                    <p>Condo rentals</p>
+                </li>
+
+            </div>
+
+            <div class="port">
+
+                <li>
+                    <h5>Minneapolis</h5>
+                    <p>Condo rentals</p>
+                </li>
+
+                <li>
+                    <h5>Dublin</h5>
+                    <p>Apartment rentals</p>
+                </li>
+
+                <li>
+                    <h5>Florida Keys</h5>
+                    <p>Monthly Rentals</p>
+                </li>
+
+            </div>
+
+            <div class="port ppp">
+
+                <li>
+                    <h5>Kauai</h5>
+                    <p>Vacation rentals</p>
+                </li>
+
+                <li>
+                    <h5>Charlotte</h5>
+                    <p>House rentals</p>
+                </li>
+
+                <li>
+                    <h5>Wilmington</h5>
+                    <p>Apartment rentals</p>
+                </li>
+
+            </div>
+
+            <div class="port pp">
+
+                <li>
+                    <h5>Milan</h5>
+                    <p>Vacation rentals</p>
+                </li>
+
+                <li>
+                    <h5>Osaka</h5>
+                    <p>Condo rentals</p>
+                </li>
+
+                <li>
+                    <h5>Key West</h5>
+                    <p>Vacation rentals</p>
+                </li>
+
+            </div>
+
+            <div class="port pp">
+
+                <li>
+                    <h5>Madrid</h5>
+                    <p>Monthly Rentals</p>
+                </li>
+
+                <li>
+                    <h5>Sarasota</h5>
+                    <p>Villa rentals</p>
+                </li>
+
+                <li>
+                    <h5>Broken Bow</h5>
+                    <p>Vacation rentals</p>
+                </li>
+
+            </div>
+
+            <div class="port pp">
+
+                <li>
+                    <h5>Cincinnati</h5>
+                    <p>Condo rentals</p>
+                </li>
+
+                <li>
+                    <h5>Branson</h5>
+                    <p>Monthly Rentals</p>
+                </li>
+
+                <li>
+                    <h5 class="show-more">Show More<i class="fa-solid fa-chevron-down"></i></h5>
+                </li>
+
+            </div>
+        </div>
+
+        <div class="footer-line2"></div>
+
+        <div class="support">
+
+            <div class="suprot">
+
+                <div class="sup">
+                    <h5>Support</h5>
+                    <br>
+                    <li>Get help with a safety issue</li>
+                    <br>
+                    <li>AirCover</li>
+                    <br>
+                    <li>Travel insurance</li>
+                    <br>
+                    <li>Anti-discrimination</li>
+                    <br>
+                    <li>Disability support</li>
+                    <br>
+                    <li>Cancellation options</li>
+                    <br>
+                    <li>Report neighborhood concern</li>
+
+                </div>
+
+                <div class="sup">
+                    <h5>Hosting</h5>
+                    <br>
+                    <li>Airbnb your home</li>
+                    <br>
+                    <li>Airbnb your experience</li>
+                    <br>
+                    <li>Airbnb your service</li>
+                    <br>
+                    <li>AirCover for Hosts</li>
+                    <br>
+                    <li>Earnings Protection</li>
+                    <br>
+                    <li>Hosting resources</li>
+                    <br>
+                    <li>Community forum</li>
+                    <br>
+                    <li>Hosting responsibly</li>
+                    <br>
+                    <li>Airbnb-friendly apartments</li>
+                    <br>
+                    <li>Join a free hosting class</li>
+                    <br>
+                    <li>Find a co‑host</li>
+                    <br>
+                    <li>Refer a host</li>
+
+                </div>
+
+                <div class="sup">
+                    <h5>Airbnb</h5>
+                    <br>
+                    <li>2026 Summer Release</li>
+                    <br>
+                    <li>Newsroom</li>
+                    <br>
+                    <li>Careers</li>
+                    <br>
+                    <li>Investors</li>
+                    <br>
+                    <li>Gift cards</li>
+                    <br>
+                    <li>Airbnb.org emergency stays</li>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-line2"></div>
+
+        <div class="last-foot">
+            <div class="last-fott-left">
+                <li>© 2026 Airbnb, Inc.</li>
+                .
+                <li>Privacy</li>
+                .
+                <li>Terms</li>
+                .
+                <li><a href="">Your Privacy Choices </a> <img src="../images/tick.png" alt="" width="20px">
+                </li>
+            </div>
+
+            <div class="last-right-foot">
+                <li><img src="../images/world.png" alt="" width="20px"> English(US)</li>
+                <p>$  USD</p>
+                <img src="../images/facebook.png" alt="" width="20px">
+                <img src="../images/x.png" alt="" width="20px">
+                <img src="../images/insta.png" alt="" width="20px">
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    crossorigin="anonymous"></script>
+
+</html>

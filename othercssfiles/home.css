@@ -190,7 +190,7 @@ body {
 }
 
 .search-wrapper {
-    width: 90%;
+    width: 70%;
     margin: auto;
     border-radius: 50px;
     /* border: 2px solid green; */
@@ -715,6 +715,7 @@ body {
     cursor: pointer;
     color: black;
     font-size: 22px;
+    font-weight: 600;
 }
 
 .section-header {
