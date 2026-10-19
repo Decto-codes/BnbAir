@@ -1058,6 +1058,11 @@ footer{
     gap: 1em;
 }
 
+.last-fott-left li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .last-fott-left a{
     color: black;
 }
